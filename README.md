@@ -20,7 +20,15 @@ They can be installed using the `requirements.txt` file included in the project.
 ```cmd
 python -m venv <path to the virtual environment (e.g. ./venv)>
 ./<path to the venv>/Scripts/activate
+```
+Install the dependencies by running the following command:
+```
 pip install -r requirements.txt
+```
+
+Exit the virtual environment by running:
+```
+deactivate
 ```
 
 ## Running the project
